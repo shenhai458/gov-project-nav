@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>政府项目申报导航</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>政府部门</h2>
+      <ul id="dept-list"></ul>
+    </aside>
+    <main class="content">
+      <h2 id="current-dept">请选择部门</h2>
+      <div id="links-container"></div>
+    </main>
+  </div>
+
+  <script>
+    fetch('data.json')
+      .then(res => {
+        if (!res.ok) throw new Error('无法加载 data.json');
+        return res.json();
+      })
+      .then(data => {
+        const deptList = document.getElementById('dept-list');
+        const linksContainer = document.getElementById('links-container');
+        const currentDeptEl = document.getElementById('current-dept');
+
+        // 按顺序显示部门（可调整顺序）
+        const deptOrder = [
+          "科技局",
+          "火炬管委",
+          "工信局",
+          "人社局",
+          "商务局",
+          "市监局（知识产权）",
+          "发改委",
+          "其它部门"
+        ];
+
+        deptOrder.forEach(dept => {
+          if (!data[dept]) return;
+          const li = document.createElement('li');
+          li.textContent = dept;
+          li.addEventListener('click', () => {
+            currentDeptEl.textContent = dept;
+            linksContainer.innerHTML = '';
+            data[dept].forEach(item => {
+              const a = document.createElement('a');
+              a.href = item.url;
+              a.target = '_blank';
+              a.rel = 'noopener noreferrer';
+              a.textContent = item.name;
+              linksContainer.appendChild(a);
+            });
+          });
+          deptList.appendChild(li);
+        });
+      })
+      .catch(err => {
+        document.getElementById('links-container').innerHTML = 
+          `<p style="color:red;">加载失败：${err.message}。请确保 data.json 文件存在且格式正确。</p>`;
+      });
+  </script>
+</body>
+</html>
