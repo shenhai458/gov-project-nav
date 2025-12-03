@@ -3,18 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>政府项目申报导航</title>
+  <title>政府项目申报导航 · 政策直达</title>
   <link rel="stylesheet" href="style.css" />
+  <!-- 引入外部图标（可选） -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <div class="container">
     <aside class="sidebar">
-      <h2>政府部门</h2>
+      <div class="logo">🏛️ 政策导航</div>
       <ul id="dept-list"></ul>
     </aside>
     <main class="content">
-      <h2 id="current-dept">请选择部门</h2>
-      <div id="links-container"></div>
+      <h1 id="current-dept">请选择一个政府部门</h1>
+      <div id="links-container" class="cards-grid"></div>
     </main>
   </div>
 
@@ -29,7 +31,6 @@
         const linksContainer = document.getElementById('links-container');
         const currentDeptEl = document.getElementById('current-dept');
 
-        // 按顺序显示部门（可调整顺序）
         const deptOrder = [
           "科技局",
           "火炬管委",
@@ -38,6 +39,7 @@
           "商务局",
           "市监局（知识产权）",
           "发改委",
+          "公司门户网站",
           "其它部门"
         ];
 
@@ -49,12 +51,21 @@
             currentDeptEl.textContent = dept;
             linksContainer.innerHTML = '';
             data[dept].forEach(item => {
-              const a = document.createElement('a');
-              a.href = item.url;
-              a.target = '_blank';
-              a.rel = 'noopener noreferrer';
-              a.textContent = item.name;
-              linksContainer.appendChild(a);
+              const card = document.createElement('a');
+              card.href = item.url;
+              card.target = '_blank';
+              card.rel = 'noopener noreferrer';
+              card.className = 'card';
+              card.innerHTML = `
+                <div class="card-body">
+                  <h3>${item.name}</h3>
+                  <span class="tag">${item.tag || '通用'}</span>
+                </div>
+                <div class="card-icon">
+                  <i class="fas fa-external-link-alt"></i>
+                </div>
+              `;
+              linksContainer.appendChild(card);
             });
           });
           deptList.appendChild(li);
@@ -62,7 +73,7 @@
       })
       .catch(err => {
         document.getElementById('links-container').innerHTML = 
-          `<p style="color:red;">加载失败：${err.message}。请确保 data.json 文件存在且格式正确。</p>`;
+          `<div class="error">❌ 加载失败：${err.message}</div>`;
       });
   </script>
 </body>
