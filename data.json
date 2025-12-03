@@ -1,48 +1,51 @@
 {
   "科技局": [
-    { "name": "福建省科学技术厅", "url": "https://kjt.fujian.gov.cn/" },
-    { "name": "厦门市科学技术奖平台", "url": "http://kjj.xm.gov.cn/" },
-    { "name": "福建省高效办成一件事—科技成果转化备案", "url": "https://kjt.fujian.gov.cn/kjcg/" },
-    { "name": "福建省科技厅人才综合业务管理平台", "url": "https://rcgl.kjt.fujian.gov.cn/" }
+    { "name": "福建省科学技术厅", "url": "https://kjt.fujian.gov.cn/", "tag": "省级" },
+    { "name": "厦门市科学技术奖平台", "url": "http://kjj.xm.gov.cn/", "tag": "市级" },
+    { "name": "科技成果转化备案系统", "url": "https://kjt.fujian.gov.cn/kjcg/", "tag": "省级" },
+    { "name": "福建省科技人才管理平台", "url": "https://rcgl.kjt.fujian.gov.cn/", "tag": "省级" }
   ],
   "火炬管委": [
-    { "name": "厦门火炬高技术产业开发区", "url": "http://www.xmtorch.gov.cn/" },
-    { "name": "火炬政策兑现", "url": "http://www.xmtorch.gov.cn/zwgk/zcfg/zcwj.htm" }
+    { "name": "厦门火炬高新区官网", "url": "http://xmtorch.xm.gov.cn/", "tag": "园区" },
+    { "name": "火炬政策兑现专栏", "url": "http://www.xmtorch.gov.cn/zwgk/zcfg/zcwj.htm", "tag": "政策" }
   ],
   "工信局": [
-    { "name": "工业和信息化部政策文件库", "url": "https://www.miit.gov.cn/zwgk/zcwj/index.html" },
-    { "name": "福建省工业和信息化厅", "url": "http://gxt.fujian.gov.cn/" },
-    { "name": "厦门市工业和信息化局", "url": "http://gxj.xm.gov.cn/" },
-    { "name": "上海市经济和信息化委员会", "url": "https://www.sheitc.sh.gov.cn/" }
+    { "name": "工信部政策文件库", "url": "https://www.miit.gov.cn/zwgk/zcwj/index.html", "tag": "国家级" },
+    { "name": "福建省工信厅", "url": "http://gxt.fujian.gov.cn/", "tag": "省级" },
+    { "name": "厦门市工信局", "url": "http://gxj.xm.gov.cn/", "tag": "市级" },
+    { "name": "上海市经信委", "url": "https://www.sheitc.sh.gov.cn/", "tag": "市级" }
   ],
   "人社局": [
-    { "name": "厦门市人力资源和社会保障局", "url": "http://hrss.xm.gov.cn/" },
-    { "name": "厦门i就业公共服务平台", "url": "https://www.xm91.cn/" }
+    { "name": "厦门市人社局", "url": "http://hrss.xm.gov.cn/", "tag": "市级" },
+    { "name": "厦门i就业平台", "url": "https://www.xm91.cn/", "tag": "服务平台" }
   ],
   "商务局": [
-    { "name": "商务部业务系统统一平台", "url": "https://ecms.mofcom.gov.cn/" },
-    { "name": "厦门市商务局综合服务平台", "url": "http://swj.xm.gov.cn/" },
-    { "name": "外贸通", "url": "https://waimaoth.com/" },
-    { "name": "走出去公共服务平台", "url": "https://fec.mofcom.gov.cn/" }
+    { "name": "商务部统一业务平台", "url": "https://ecms.mofcom.gov.cn/", "tag": "国家级" },
+    { "name": "厦门市商务局", "url": "http://swj.xm.gov.cn/", "tag": "市级" },
+    { "name": "外贸通", "url": "https://waimaoth.com/", "tag": "第三方" },
+    { "name": "走出去公共服务平台", "url": "https://fec.mofcom.gov.cn/", "tag": "国家级" }
   ],
   "市监局（知识产权）": [
-    { "name": "国家知识产权示范企业申报系统", "url": "https://www.cnipa.gov.cn/" },
-    { "name": "中国及多国专利审查信息查询", "url": "http://cpquery.cnipa.gov.cn/" },
-    { "name": "厦门知识产权运营公共服务平台", "url": "https://www.xmipo.org.cn/" },
-    { "name": "国家专利密集型产品备案认定试点平台", "url": "https://www.patentid.cn/" }
+    { "name": "国家知识产权局", "url": "https://www.cnipa.gov.cn/", "tag": "国家级" },
+    { "name": "专利审查信息查询", "url": "http://cpquery.cnipa.gov.cn/", "tag": "查询系统" },
+    { "name": "厦门知识产权平台", "url": "https://www.xmipo.org.cn/", "tag": "市级" },
+    { "name": "专利密集型产品备案", "url": "https://www.patentid.cn/", "tag": "备案平台" }
   ],
   "发改委": [
-    { "name": "国家发改委公众端统一登录平台", "url": "https://www.ndrc.gov.cn/" },
-    { "name": "全国境外投资项目备案网络管理系统", "url": "https://jwtz.ndrc.gov.cn/" },
-    { "name": "厦门建设项目投资备案平台", "url": "http://tzxm.xm.gov.cn/" },
-    { "name": "国家重大建设项目库", "url": "https://kpp.ndrc.gov.cn/" }
+    { "name": "国家发改委", "url": "https://www.ndrc.gov.cn/", "tag": "国家级" },
+    { "name": "境外投资备案系统", "url": "https://jwtz.ndrc.gov.cn/", "tag": "备案" },
+    { "name": "厦门投资项目备案", "url": "http://tzxm.xm.gov.cn/", "tag": "市级" },
+    { "name": "国家重大建设项目库", "url": "https://kpp.ndrc.gov.cn/", "tag": "项目库" }
+  ],
+  "公司门户网站": [
+    { "name": "公司OA办公系统", "url": "http://192.168.1.30:8080/wui/index.html#/main/portal/portal-6-3?menuIds=0,6&menuPathIds=0,6&_key=r9m8ko", "tag": "内部" },
+    { "name": "慧企云", "url": "https://www.xmsme.cn/", "tag": "内部系统" }
   ],
   "其它部门": [
-    { "name": "中共厦门市委金融委员会办公室", "url": "http://jrj.xm.gov.cn/" },
-    { "name": "厦门市中小企业服务平台", "url": "https://sme.xm.gov.cn/" },
-    { "name": "厦企通-厦门市产业扶持管理系统", "url": "https://xqt.xm.gov.cn/" },
-    { "name": "制造业企业质量管理能力评估平台", "url": "https://www.miit.gov.cn/jgsj/kjs/qygl/index.html" },
-    { "name": "厦门市产业扶持资金综合管理系统", "url": "https://xqt.xm.gov.cn/" },
-    { "name": "福建省全生命周期项目管理平台", "url": "https://fj.gov.cn/" }
+    { "name": "厦门市委金融办", "url": "http://jrj.xm.gov.cn/", "tag": "市级" },
+    { "name": "厦门市中小企业平台", "url": "https://sme.xm.gov.cn/", "tag": "服务平台" },
+    { "name": "厦企通-产业扶持系统", "url": "https://xqt.xm.gov.cn/", "tag": "市级" },
+    { "name": "制造业质量管理平台", "url": "https://www.miit.gov.cn/jgsj/kjs/qygl/index.html", "tag": "国家级" },
+    { "name": "福建省全生命周期项目平台", "url": "https://fj.gov.cn/", "tag": "省级" }
   ]
 }
