@@ -2,7 +2,7 @@
   "科技局": [
     { "name": "福建省科学技术厅", "url": "https://kjt.fujian.gov.cn/", "tag": "省级" },
     { "name": "厦门市科学技术奖平台", "url": "http://kjj.xm.gov.cn/", "tag": "市级" },
-    { "name": "科技成果转化备案系统", "url": "https://kjt.fujian.gov.cn/kjcg/", "tag": "省级" },
+    { "name": "科技成果转化备案系统", "url": "https://zwfw.fujian.gov.cn:1001/OnebusinessCate/unite-zone/", "tag": "省级" },
     { "name": "福建省科技人才管理平台", "url": "https://rcgl.kjt.fujian.gov.cn/", "tag": "省级" }
   ],
   "火炬管委": [
@@ -49,4 +49,5 @@
     { "name": "福建省全生命周期项目平台", "url": "https://fj.gov.cn/", "tag": "省级" }
   ]
 }
+
 
