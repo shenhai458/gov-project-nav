@@ -20,7 +20,7 @@
     { "name": "厦门i就业平台", "url": "https://www.xm91.cn/", "tag": "服务平台" }
   ],
   "商务局": [
-    { "name": "商务部统一业务平台", "url": "https://ecms.mofcom.gov.cn/", "tag": "国家级" },
+    { "name": "商务部统一业务平台", "url": "https://fwmytj-fwwb.mofcom.gov.cn/login.html", "tag": "国家级" },
     { "name": "厦门市商务局", "url": "http://swj.xm.gov.cn/", "tag": "市级" },
     { "name": "外贸通", "url": "https://waimaoth.com/", "tag": "第三方" },
     { "name": "走出去公共服务平台", "url": "https://fec.mofcom.gov.cn/", "tag": "国家级" }
@@ -49,3 +49,4 @@
     { "name": "福建省全生命周期项目平台", "url": "https://fj.gov.cn/", "tag": "省级" }
   ]
 }
+
