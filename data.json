@@ -19,6 +19,7 @@
   "人社局": [
     { "name": "厦门市人社局", "url": "http://hrss.xm.gov.cn/", "tag": "市级" },
     { "name": "厦门i就业平台", "url": "https://www.xm91.cn/", "tag": "服务平台" }
+    { "name": "厦门i人才", "url": "http://xmirc.xmdjej.gov.cn/#/guide", "tag": "i人才平台" }
   ],
   "商务局": [
     { "name": "商务部统一业务平台", "url": "https://fwmytj-fwwb.mofcom.gov.cn/login.html", "tag": "国家级" },
@@ -51,6 +52,7 @@
     { "name": "厦门市总工会", "url": "https://i.xmgh.org/business/ht/index.action", "tag": "市级" }
   ]
 }
+
 
 
 
