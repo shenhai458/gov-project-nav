@@ -3,7 +3,7 @@
     { "name": "福建省科学技术厅", "url": "https://kjt.fujian.gov.cn/", "tag": "省级" },
     { "name": "厦门市科学技术奖平台", "url": "http://kjj.xm.gov.cn/", "tag": "市级" },
     { "name": "科技成果转化备案系统", "url": "https://zwfw.fujian.gov.cn:1001/OnebusinessCate/unite-zone/", "tag": "省级" },
-    { "name": "福建省科技人才管理平台", "url": "https://rcgl.kjt.fujian.gov.cn/", "tag": "省级" }
+    { "name": "福建省科技人才管理平台", "url": "https://rcgl.kjt.fujian.gov.cn/", "tag": "省级" }，
     { "name": "厦门市科学技术局", "url": "http://sti.xm.gov.cn/", "tag": "市级" }
   ],
   "火炬管委": [
@@ -18,7 +18,7 @@
   ],
   "人社局": [
     { "name": "厦门市人社局", "url": "http://hrss.xm.gov.cn/", "tag": "市级" },
-    { "name": "厦门i就业平台", "url": "https://www.xm91.cn/", "tag": "服务平台" }
+    { "name": "厦门i就业平台", "url": "https://www.xm91.cn/", "tag": "服务平台" }，
     { "name": "厦门i人才", "url": "http://xmirc.xmdjej.gov.cn/#/guide", "tag": "i人才平台" }
   ],
   "商务局": [
@@ -48,10 +48,11 @@
     { "name": "厦门市中小企业平台", "url": "https://sme.xm.gov.cn/", "tag": "服务平台" },
     { "name": "厦企通-产业扶持系统", "url": "https://xqt.xm.gov.cn/", "tag": "市级" },
     { "name": "制造业质量管理平台", "url": "https://www.miit.gov.cn/jgsj/kjs/qygl/index.html", "tag": "国家级" },
-    { "name": "福建省全生命周期项目平台", "url": "https://fj.gov.cn/", "tag": "省级" }
+    { "name": "福建省全生命周期项目平台", "url": "https://fj.gov.cn/", "tag": "省级" }，
     { "name": "厦门市总工会", "url": "https://i.xmgh.org/business/ht/index.action", "tag": "市级" }
   ]
 }
+
 
 
 
