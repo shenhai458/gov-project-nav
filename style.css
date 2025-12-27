@@ -1,4 +1,4 @@
-/* style.css - 美化版 */
+/* style.css - 清新浅绿色美化版 */
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@ body {
 /* ——— 侧边栏 ——— */
 .sidebar {
   width: 260px;
-  background: linear-gradient(180deg, #1e3a8a, #1d4ed8);
+  background: linear-gradient(180deg, #2a9d8f, #1d5f5f); /* ← 改为青绿色渐变 */
   color: white;
   padding: 24px 0;
   overflow-y: auto;
@@ -63,7 +63,7 @@ body {
 .content h1 {
   font-size: 1.8em;
   margin-bottom: 24px;
-  color: #1e40af;
+  color: #1d5f5f; /* ← 标题改为深青绿色，更协调 */
   font-weight: 600;
 }
 
@@ -90,7 +90,7 @@ body {
 .card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-  border-left: 4px solid #3b82f6;
+  border-left: 4px solid #4db6ac; /* ← 改为青绿色强调边 */
 }
 
 .card-body h3 {
@@ -101,8 +101,8 @@ body {
 }
 
 .tag {
-  background: #dbeafe;
-  color: #1d4ed8;
+  background: #e0f7f3; /* ← 浅青绿底 */
+  color: #268c7f;     /* ← 深青绿文字 */
   font-size: 0.8em;
   padding: 4px 10px;
   border-radius: 20px;
