@@ -11,6 +11,7 @@
     { "name": "火炬政策兑现专栏", "url": "https://service.xmtorch.xm.gov.cn/pzt/fg/fire/policy.html?adr=policy&parkCd=12", "tag": "政策" }
   ],
   "工信局": [
+    { "name": "慧企云", "url": "https://www.xmsme.cn/", "tag": "市级" },
     { "name": "工信部政策文件库", "url": "https://www.miit.gov.cn/zwgk/zcwj/index.html", "tag": "国家级" },
     { "name": "福建省工信厅", "url": "http://gxt.fujian.gov.cn/", "tag": "省级" },
     { "name": "厦门市工信局", "url": "http://gxj.xm.gov.cn/", "tag": "市级" },
@@ -24,10 +25,10 @@
   "商务局": [
     { "name": "商务部统一业务平台", "url": "https://fwmytj-fwwb.mofcom.gov.cn/login.html", "tag": "国家级" },
     { "name": "厦门市商务局", "url": "http://swj.xm.gov.cn/", "tag": "市级" },
-    { "name": "外贸通", "url": "https://waimaoth.com/", "tag": "第三方" },
+    { "name": "外贸通", "url": "https://waimaoth.com/", "tag": "市级" },
     { "name": "走出去公共服务平台", "url": "https://fec.mofcom.gov.cn/", "tag": "国家级" }
   ],
-  "市监局（知识产权）": [
+  "市监局": [
     { "name": "国家知识产权局", "url": "https://www.cnipa.gov.cn/", "tag": "国家级" },
     { "name": "专利审查信息查询", "url": "http://cpquery.cnipa.gov.cn/", "tag": "查询系统" },
     { "name": "厦门知识产权平台", "url": "https://www.xmipo.org.cn/", "tag": "市级" },
@@ -41,7 +42,8 @@
   ],
   "公司门户网站": [
     { "name": "公司OA办公系统", "url": "http://192.168.1.30:8080/wui/index.html#/main/portal/portal-6-3?menuIds=0,6&menuPathIds=0,6&_key=r9m8ko", "tag": "内部" },
-    { "name": "慧企云", "url": "https://www.xmsme.cn/", "tag": "内部系统" }
+    { "name": "普为知识产权系统", "url": "https://office.pvtech.com.cn:8085/#/login", "tag": "内部系统" },
+    { "name": "邮箱", "url": "http://mail.qiye.163.com/", "tag": "内部系统" }
   ],
   "其它部门": [
     { "name": "厦门市委金融办", "url": "http://jrj.xm.gov.cn/", "tag": "市级" },
@@ -52,6 +54,7 @@
     { "name": "厦门市总工会", "url": "https://i.xmgh.org/business/ht/index.action", "tag": "市级" }
   ]
 }
+
 
 
 
